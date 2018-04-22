@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.8)
+
+PROJECT(cxJsonModelTutorial)
+
+SET(CMAKE_BUILD_TYPE "Release")
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+SET(LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
+
+ADD_SUBDIRECTORY(gtest)
+ADD_SUBDIRECTORY(cxJsonModelDemo)
+ADD_SUBDIRECTORY(cxJsonModelDetection/detection310)
+ADD_SUBDIRECTORY(cxJsonModelDetection/detection320)
+ADD_SUBDIRECTORY(cxJsonModelDetection/detection330)

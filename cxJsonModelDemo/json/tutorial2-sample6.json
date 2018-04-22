@@ -1,0 +1,12 @@
+[
+    {
+        "wDataSource": 1,
+        "wStatus":2
+    },
+    {
+        "lpbData": "Hello WOSA/XFS"
+    },
+    {
+        "fwWriteMethod": 100
+    }
+]

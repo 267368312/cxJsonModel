@@ -1,0 +1,8 @@
+#include "../@SampleHeader@"
+
+int main(int argc, char* argv[])
+{
+	sample();
+	system("pause");
+	return 0;
+}
